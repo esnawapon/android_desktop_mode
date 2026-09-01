@@ -1,0 +1,34 @@
+name: Device report
+description: Tell us what a device reports, so its desktop mode can be supported properly.
+title: "[device] <manufacturer> <model> — <desktop mode>"
+labels: ["device-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Run the example app on the device, put it **into** its desktop mode, then tap the
+        copy button in the app bar and paste the result below. A second report with the
+        device **outside** desktop mode is even more useful.
+  - type: input
+    id: desktop-mode
+    attributes:
+      label: Which desktop mode?
+      placeholder: Samsung DeX (wired) / Ready For / HyperOS PC mode / connected display ...
+    validations:
+      required: true
+  - type: textarea
+    id: signals-on
+    attributes:
+      label: Signals while IN desktop mode
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: signals-off
+    attributes:
+      label: Signals while NOT in desktop mode
+      render: json
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did the plugin report, and what did you expect?
