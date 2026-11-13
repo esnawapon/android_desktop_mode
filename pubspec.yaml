@@ -1,9 +1,9 @@
 name: android_desktop_mode
 description: >-
-  Detects whether an Android device is running in desktop mode - Samsung DeX,
-  ChromeOS, Android desktop windowing or a vendor PC mode - with the raw signals
-  behind the verdict and a stream of changes.
-version: 0.1.0
+  Detects Android desktop mode (Samsung DeX, ChromeOS, Android desktop
+  windowing, vendor PC modes) with the raw signals behind the verdict and a
+  stream of changes.
+version: 0.1.1
 repository: https://github.com/esnawapon/android_desktop_mode
 issue_tracker: https://github.com/esnawapon/android_desktop_mode/issues
 topics:

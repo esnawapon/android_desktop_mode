@@ -1,3 +1,10 @@
+## 0.1.1
+
+- Support Flutter 3.50: raise the Android Gradle Plugin to 9.3.1 (Flutter now requires
+  at least 9.1.1) and Kotlin to 2.4.20.
+- Example app: Gradle 9.5.0, and Material imported from `package:material_ui`.
+- Shorten the package description to fit pub.dev's 60–180 character limit.
+
 ## 0.1.0
 
 Initial release.

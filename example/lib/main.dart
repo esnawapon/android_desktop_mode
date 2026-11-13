@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:android_desktop_mode/android_desktop_mode.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter/services.dart';
 
 void main() => runApp(const ExampleApp());
